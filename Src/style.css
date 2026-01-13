@@ -15,7 +15,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --black-color: hsl(0, 0%, 100%);
-  --black-color-light: hsl(219, 9%, 69%);
+  --black-color-light: hsl(0, 0%, 56%);
   --black-color-lighten: hsl(0, 0%, 100%);
   --white-color: #000000;
   --body-color: hsl(0, 0%, 100%);
@@ -186,15 +186,14 @@ input{
   color: var(--white-color);
   background-color: var(--black-color);
   font-weight: var(--font-semi-bold);
-  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background-color .3s;
+  transition: 0.2s ease-in-out;
 }
 
 .nav__link:hover {
-  background-color: var(--black-color-light);
+  color: var(--black-color-light);
 }
 
 /* Show menu */
@@ -240,8 +239,6 @@ input{
   justify-content: center;
   align-items: center;
   left: 0;
-
-  
 }
 
 .dropdown__link:hover, 
@@ -309,7 +306,6 @@ input{
 
   .nav__link {
     height: 100%;
-    padding: 0;
     /* justify-content: initial; */
     column-gap: .25rem;
   }
@@ -1354,7 +1350,7 @@ span{
   /*=============== PRODUCT INTERFACE ===============*/
 
   .product-path{
-    padding: 150px 0 0px;
+    padding: 150px 0 40px;
     display: grid;
     text-align: center;
     justify-content: center;
@@ -1497,8 +1493,8 @@ span{
 }
 
 .phone-logo{
-  margin-top: 90vh;
-  margin-left: 90%;
+  margin-top: 20vh;
+  margin-left: 90%; 
   position: fixed;
   background-color: #33d951;
   border-radius: 100px;
@@ -1521,7 +1517,7 @@ span{
 @media screen and (max-width: 780px) {
 
   .phone-logo{
-    margin-top: 90vh;
+    margin-top: 20vh;
     margin-left: 80%;
     margin-right: 25%;
     position: fixed;
@@ -1575,7 +1571,7 @@ span{
 @media screen and (max-width: 670px) {
 
   .phone-logo{
-    margin-top: 90vh;
+    margin-top: 20vh;
     margin-left: 80%;
     margin-right: 25%;
     position: fixed;
@@ -1627,3 +1623,129 @@ span{
   } */
 
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #1b1b1b;
+  padding: 70px 0;
+  margin-top: 80px;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #424242;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px){
+
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:auto;
+    bottom: -10px;
+    background-color: #424242;
+    height: 2px;
+    box-sizing: border-box;
+    width: 40px;
+    align-items: center;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .footer-col{
+    width: 100%;
+  }
+}
+
+
+
+
