@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./Src/style.css">
+    <link rel="stylesheet" href="../../Src/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet"/>
     <link href='https://cdn.boxicons.com/3.0.5/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/3.0.5/fonts/basic/boxicons.min.css' rel='stylesheet'>
@@ -15,7 +15,7 @@
     <header class="header">
         <div class="logo">
             <a href="#" class="nav__logo">
-                <i class="ri-planet-line"></i> <img src="./Src/Logo/Logo Brunor (horizontal).png" alt="">
+                <i class="ri-planet-line"></i> <img src="../../Src/Logo/Logo Brunor (horizontal).png" alt="">
             </a>
             <div>
                 <!-- <input type="text" placeholder="Pesquisa...">
@@ -37,9 +37,39 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li><a href="./List/list.html" class="nav__link">Artesanais</a></li>
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Artesanais <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
 
-                    <li><a href="./List/list.html" class="nav__link">Organização</a></li>
+                        <ul class="dropdown__menu">
+                            <li><a href="./List/list.html" class="dropdown__link"><i class="ri-pie-chart-line"></i>Produtos</a></li>
+
+                            <li><a href="./List/list.html" class="dropdown__link"><i class="ri-arrow-up-down-line"></i>Produtos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Decorações <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li><a href="./List/list.html" class="dropdown__link"><i class="ri-pie-chart-line"></i>Produtos</a></li>
+                            <li><a href="./List/list.html" class="dropdown__link"><i class="ri-arrow-up-down-line"></i>Produtos</a></li>
+                        </ul>
+                    </li>
+                  
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Organização <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li><a href="./List/list.html" class="dropdown__link"><i class="ri-pie-chart-line"></i>Produtos</a></li>
+                            <li><a href="./List/list.html" class="dropdown__link"><i class="ri-arrow-up-down-line"></i>Produtos</a></li>
+                        </ul>
+                    </li>
 
                     <li><a href="./List/list.html" class="nav__link">Garrafões</a></li>
 
@@ -48,208 +78,139 @@
             </div>
         </nav>
     </header>
-      
-    <!--=============== HERO FILM ===============-->
 
-    <div class="hero" id="home">
-      <!-- <video class="video" src="./Src/BIM Connection - M Techne - ALTA (1).mp4" autoplay muted loop></video> -->
+
+    <!--=============== PRODUCT INTERFACE ===============-->
+
+    <div class="product-path">
+        <h2>Artesanais / Produtos</h2>
+    </div>
+    <div class="product-interface">
+        <div class="column1">
+            <img src="../../Src/Produtos/Garrafões/Cld Cisal.png" alt="">
+        </div>
+        <div class="column2">
+            <h1>Garrafão Cilíndrico Sisal</h1>
+            <h2>Em Estoque</h2>
+            <div class="info"><h2>Tamanhos Disponíveis:</h2></div>
+            <div class="size">
+                <a href="">6,5 Lt</a>
+                <a href="">8 Lt</a>
+                <a href="">9,5 Lt</a>
+            </div>
+            <div class="price">
+                <a href="">Comprar pelo Whatsapp</a>
+            </div>
+        </div>
     </div>
 
-    <!--=============== FLYING ICON ===============-->
-    <div class="phone-logo">
-        <img src="./Src/Icons/WhatsApp.png" alt="">
+
+    <!--=============== PRODUCT BIO ===============-->
+
+    <div class="product-bio">
+        <div class="descrption">
+            <h2>Descrição: Garrafão Cilíndrico Sisal</h2>
+            <h3>O Garrafão Cilíndrico Sisal é uma peça de vidro artesanal que se destaca pelo design minimalista e proporções equilibradas. Seu formato alongado e linhas retas conferem leveza visual e sofisticação, tornando-o versátil para diferentes composições decorativas. A transparência do vidro valoriza o conteúdo interno e amplia a sensação de amplitude nos ambientes. Produzido manualmente, cada garrafão apresenta sutis variações de forma e acabamento, características do processo artesanal, garantindo exclusividade e autenticidade a cada peça.</h3>
+            <h4>Características do Produto:</h4>
+            <ul>
+                <li>- Vidro artesanal soprado manualmente</li>
+                <li>- Gargalo alongado com acabamento delicado</li>
+                <li>- Produção manual, tornando cada peça única</li>
+                <li>- Peça versátil: decorativa e funcional</li>
+                <li>- Produzido a partir de vidro reciclado</li>
+            </ul>
+            <h4>Detalhes:</h4>
+            <ul>
+                <li><span>- 6,5 Lt:</span> 3,34kg, Altura 60cm</li>
+                <li><span>- 8 Lt:</span> 4,41kg, Altura 71cm</li>
+                <li><span>- 9,5 Lt:</span> 3,84kg, Altura 82cm</li>
+            </ul>
+            <h4>Sustentabilidade:</h4>
+            <h3>Os produtos da ArtVidro Brunor são desenvolvidos a partir de vidro reciclado, reforçando o compromisso da marca com a sustentabilidade e o consumo consciente. O reaproveitamento do vidro contribui para a redução de resíduos, diminui a necessidade de extração de matéria-prima virgem e reduz o consumo de energia no processo produtivo.</h3>
+        </div>
     </div>
-    
+
+
+
     <!--=============== OWL 1 ===============-->
 
       <div class="owl-container" style="background-color: white; padding-top: 0;">
         <div class="title-container" id="clients">
-            <h1 id="title">Mais vendidos</h1>
+            <h1 id="title">Relacionados</h1>
         </div>
         <div id="owl-about" class="owl-carousel">
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Produtos/Bojudos/Cópia_de_5304_gar_terra_boj_20_lt-removebg-preview.png" alt="">
-                <h1>Garrafão Bojudo</h1>
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="./">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
           <div class="item">
             <div class="item-text-container">
-                <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                 <h1>Garrafão Artesanal Pequeno</h1>
                 <h2 id="info">200x200</h2>
-                <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                <div class="button"><a href="">Ver produto</a></div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    
-    <!--=============== GLOSSARY 1 ===============-->
-
-    <div class="glossary">
-        <div class="column1">
-        </div>
-        <div class="column2">
-            <div class="row1"></div>
-            <div class="row2"></div>
-        </div>
-    </div>
-
-
-    <!--=============== OWL 2 ===============-->
-
-      <div class="owl-container" style="background-color: white; padding-top: 0;">
-        <div class="title-container" id="clients">
-            <h1 id="title">Garrafões</h1>
-        </div>
-        <div id="owl-about2" class="owl-carousel">
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Bojudo</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/Garrafoes/Gar_Bojudo.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Telado</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Terrario Bojo</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Cilíndrico</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão 5 Quinas</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Três lados</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Retangular</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Gota</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Gota Chanel</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Cônico</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Vicenza</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
         </div>
       </div>
     </div>
@@ -263,81 +224,76 @@
     </div>
 
 
-    <!--=============== OWL 3 ===============-->
+    <!--=============== OWL 2 ===============-->
 
       <div class="owl-container" style="background-color: white; padding-top: 0;">
         <div class="title-container" id="clients">
-            <h1 id="title">Baleiros</h1>
+            <h1 id="title">Mais vendidos</h1>
         </div>
-        <div id="owl-about3" class="owl-carousel">
+        <div id="owl-about2" class="owl-carousel">
+            
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
             <div class="item">
                 <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
+                    <img src="../../Src/Tamplate/SemImagem(Vertical).png" alt="">
                     <h1>Garrafão Artesanal Pequeno</h1>
                     <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
+                    <div class="button"><a href="">Ver produto</a></div>
                 </div>
             </div>
-            <div class="item">
-                <div class="item-text-container">
-                    <img src="./Src/Tamplate/SemImagem(Vertical).png" alt="">
-                    <h1>Garrafão Artesanal Pequeno</h1>
-                    <h2 id="info">200x200</h2>
-                    <div class="button"><a href="./Products/product.html">Ver produto</a></div>
-                </div>
-            </div>
+        </div>
       </div>
     </div>
 
-    <!--=============== FOOTER ===============-->
+
+   <!--=============== FOOTER ===============-->
 
     <footer class="footer">
         <div class="container">
@@ -377,14 +333,11 @@
             </div>
         </div>
     </footer>
-    
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js'></script>
-    <script  src="script.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-    <script src="config.js"></script>
-    
     <script>
       $(document).ready(function() {
   
