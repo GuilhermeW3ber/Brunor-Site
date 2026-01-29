@@ -412,6 +412,7 @@ input{
 .item-text-container{
   height: auto;
   color: #000;
+  text-transform: uppercase;
 }
 
 .item-text-container #info{
@@ -453,9 +454,9 @@ input{
 
 #owl-about .item h1{
    margin: 10px 20px 0px;
-   font-size: 20px;
-   font-weight: 300;
-   height: auto;
+   font-weight: 200;
+   height: 55px;
+   font-size: 18px;
 }
 
 #owl-about .item h2{
@@ -615,9 +616,10 @@ input{
 
 #owl-about2 .item h1{
    margin: 10px 20px 0px;
-   font-size: 20px;
+   font-size: 17px;
    font-weight: 300;
-   height: auto;
+   height: 55px;
+   font-size: 18px;
 }
 
 #owl-about2 .item h2{
@@ -674,9 +676,10 @@ input{
 
 #owl-about3 .item h1{
    margin: 10px 20px 0px;
-   font-size: 20px;
+   font-size: 17px;
    font-weight: 300;
-   height: auto;
+   height: 55px;
+   font-size: 18px;
 }
 
 #owl-about3 .item h2{
@@ -880,6 +883,7 @@ span{
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .item-text-container #info{
@@ -922,13 +926,14 @@ span{
 
 .product-list .item{
    padding-bottom: 40px;
+   height: 500px;
 }
 
 .product-list .item h1{
    margin: 10px 20px 0px;
-   font-size: 20px;
+   font-size: 18px;
    font-weight: 300;
-   height: auto;
+   height: 55px !important;
 }
 
 .product-list .item h2{
@@ -1035,9 +1040,9 @@ span{
 
   #owl-about .item h1{
     margin: 10px 20px 0px;
-    font-size: 17px;
     font-weight: 300;
-    height: auto;
+    height: 55px;
+    font-size: 18px;
   }
 
   #owl-about .item #info{
@@ -1060,9 +1065,9 @@ span{
 
   #owl-about2 .item h1{
     margin: 10px 20px 0px;
-    font-size: 17px;
     font-weight: 300;
-    height: auto;
+    height: 55px;
+   font-size: 18px;
   }
 
   #owl-about2 .item #info{
@@ -1087,7 +1092,8 @@ span{
     margin: 10px 20px 0px;
     font-size: 17px;
     font-weight: 300;
-    height: auto;
+    height: 55px;
+    font-size: 18px;
   }
 
   #owl-about3 .item #info{
@@ -1168,13 +1174,15 @@ span{
 
   .product-list .item{
     padding-bottom: 40px;
+    height: 500px;
   }
 
   .product-list .item h1{
     margin: 10px 20px 0px;
     font-size: 20px;
     font-weight: 300;
-    height: auto;
+    height: 55px;
+    font-size: 15px;
   }
 
   .product-list .item h2{
@@ -1333,7 +1341,8 @@ span{
     margin: 10px 20px 0px;
     font-size: 20px;
     font-weight: 300;
-    height: auto;
+    height: 55px;
+    font-size: 18px;
   }
 
   .product-list .item h2{
@@ -1757,6 +1766,28 @@ ul{
   .footer-col{
     width: 100%;
   }
+
+   #owl-about .item h1{
+    margin: 10px 5px 0px;
+    font-weight: 300;
+    height: 55px;
+    font-size: 13px;
+  }
+
+   #owl-about2 .item h1{
+    margin: 10px 5px 0px;
+    font-weight: 300;
+    height: 55px;
+    font-size: 13px;
+  }
+
+   #owl-about3 .item h1{
+    margin: 10px 5px 0px;
+    font-weight: 300;
+    height: 55px;
+    font-size: 13px;
+  }
+
 }
 
 
