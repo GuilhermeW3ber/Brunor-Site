@@ -745,7 +745,6 @@ footer h1{
   object-fit: cover; /* Scales the video to cover the container, cropping excess */
   object-position: center center;
   height: 600px;
-  background-image: url(./Tamplate/SemImagem\(Vertical\).png);
 }
 
 .product-interface .column2{
@@ -1402,7 +1401,6 @@ span{
     object-fit: cover; /* Scales the video to cover the container, cropping excess */
     object-position: center;
     height: 400px;
-    background-image: url(./Tamplate/SemImagem\(Vertical\).png);
     padding: 0;
   }
 
@@ -1484,10 +1482,11 @@ span{
 
   }
 
-  .descrption{
-    padding: 30px 10vw 0px;
-  
-  }
+.descrption{
+  padding: 30px  0px;
+  width: 80vw;
+ 
+}
 
   .descrption h2{
     padding: 0 0 30px;
