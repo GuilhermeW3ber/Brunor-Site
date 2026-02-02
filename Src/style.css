@@ -669,11 +669,11 @@ input{
   padding: 150px 0;
   object-fit: cover; /* Scales the video to cover the container, cropping excess */
   object-position: center center;
-  background-image: url(./Tamplate/SemImagem.png);
   color: #fff;
   display: grid;
   justify-content: center;
   align-items: center;
+  background-image: url("./Tamplate/IMG_4588.PNG");
 }
 
 .full-row h1{
@@ -1067,7 +1067,6 @@ span{
     object-position: center;
     height: 600px;
     min-width: 90vw;
-    background-image: url(./Tamplate/SemImagem.png);
   }
 
 
@@ -1330,7 +1329,6 @@ span{
     object-position: center;
     height: 300px;
     min-width: 90vw;
-    background-image: url(./Tamplate/SemImagem.png);
     padding: 50px;
   }
   
@@ -1603,7 +1601,7 @@ span{
 }
 
 .phone-logo{
-  margin-top: 20vh;
+  margin-top: 85vh;
   margin-left: 90%; 
   position: fixed;
   background-color: #33d951;
@@ -1627,7 +1625,7 @@ span{
 @media screen and (max-width: 780px) {
 
   .phone-logo{
-    margin-top: 20vh;
+    margin-top: 85vh;
     margin-left: 80%;
     margin-right: 25%;
     position: fixed;
@@ -1681,7 +1679,7 @@ span{
 @media screen and (max-width: 670px) {
 
   .phone-logo{
-    margin-top: 20vh;
+    margin-top: 85vh;
     margin-left: 80%;
     margin-right: 25%;
     position: fixed;
