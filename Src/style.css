@@ -407,6 +407,8 @@ input{
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+    border: 1px solid #e9e9e9;
+    padding: 10px !important;
 }
 
 .item-text-container{
@@ -418,22 +420,6 @@ input{
 .item-text-container #info{
   font-size: 18px !important;
   padding: 10px 0;
-}
-
-.item-text-container .button{
-  font-size: 15px;
-  background-color: #006837;
-  width: 100%;
-  padding: 10px 0;
-  border: none;
-  border-radius: 10px;
-  transition: 0.15s ease-in-out;
-  cursor: pointer;
-}
-
-.item-text-container .button:hover{
-  color: #ffffff;
-  background-color: #01502b;
 }
 
 .item-text-container img{
@@ -540,14 +526,21 @@ input{
   background-color: #FFF;
 }
 
+.glossary .column1{
+  background-image: url("../Products/Baleiros/baleiro_inicio.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .column1{
-  width: 650px;
+  width: 850px;
   object-fit: cover; /* Scales the video to cover the container, cropping excess */
   object-position: center center;
   height: 500px;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .column1 img{
@@ -555,34 +548,61 @@ input{
   }
 
 .column2{
-  width: 650px;
+  width: 400px;
   object-fit: cover; /* Scales the video to cover the container, cropping excess */
   object-position: center center;
   height: 100%;
-  border: 1px solid #dfdfdf;
-  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
+
+.column2 .row1 h1{
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.column2 .row1 a{
+  font-size: 35px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #646464;
+  /* border: #000 1px solid; */
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #f3f3f3;
+  transition: 0.15s ease-in-out;
+}
+
+.column2 .row1 a:hover{
+  background-color: #acacac;
+  color: #ffffff;
+}
+
 
 .row1{
   /* margin-bottom: 15px; */
-  margin-left: 0.75vw;
-  width: 640px;
-  height: 242px;
+  margin-left: 10px;
+  width: 390px;
+  height: 500px;
+  padding: 150px 0;
   object-fit: cover; /* Scales the video to cover the container, cropping excess */
   object-position: center center;
-  background-image: url(./Tamplate/SemImagem\(Vertical\).png);
+  background-color: #7a5e3f;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.row2{
-  margin-top: 15px;
-  margin-left: 0.75vw;
-  width: 640px;
-  height: 242px;
-  object-fit: cover; /* Scales the video to cover the container, cropping excess */
-  object-position: center center;
-  background-image: url(./Tamplate/SemImagem\(Vertical\).png);
-}
 
+.row2 h1{
+  font-size: 30px;
+}
 
 /*=============== OWL CAROUSSEL 2 ===============*/
 
@@ -602,6 +622,8 @@ input{
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+    border: 1px solid #e9e9e9;
+    padding: 10px !important;
 }
 
 #owl-about2 .item{
@@ -612,6 +634,8 @@ input{
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+    border: 1px solid #e9e9e9;
+    padding: 10px !important;
 }
 
 #owl-about2 .item h1{
@@ -640,12 +664,43 @@ input{
 /*=============== GLOSSARY 2 ===============*/
 
 .full-row{
-  width: 1300px;
-  object-fit:cover; /* Scales the video to cover the container, cropping excess */
-  object-position: center;
+  width: 1256px;
   height: 500px;
-  min-width: 1300px;
+  padding: 150px 0;
+  object-fit: cover; /* Scales the video to cover the container, cropping excess */
+  object-position: center center;
   background-image: url(./Tamplate/SemImagem.png);
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-row h1{
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.full-row a{
+  font-size: 35px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #646464;
+  /* border: #000 1px solid; */
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #f3f3f3;
+  transition: 0.15s ease-in-out;
+  width: 295px;
+  justify-self: center;
+}
+
+.full-row a:hover{
+  background-color: #acacac;
+  color: #ffffff;
 }
 
 
@@ -672,6 +727,8 @@ input{
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+    border: 1px solid #e9e9e9;
+    padding: 10px !important;
 }
 
 #owl-about3 .item h1{
@@ -753,6 +810,8 @@ footer h1{
   object-fit: cover; /* Scales the video to cover the container, cropping excess */
   object-position: center center;
   height: 100%;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
 }
 
 .product-interface .column2 h1{
@@ -883,6 +942,8 @@ span{
   border-radius: 3px;
   text-align: center;
   text-transform: uppercase;
+  border: 1px solid #e9e9e9;
+  padding: 10px !important;
 }
 
 .item-text-container #info{
@@ -896,15 +957,33 @@ span{
   width: 100%;
   padding: 10px 0;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.15s ease-in-out;
   cursor: pointer;
+  color: #fff;
 }
 
 .item-text-container .button:hover{
   color: #ffffff;
   background-color: #01502b;
 }
+
+.item-text-container .button a{
+  font-size: 15px;
+  background-color: #006837;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.item-text-container .button a:hover{
+  color: #ffffff;
+  background-color: #01502b;
+}
+
 
 .item-text-container img{
     width: 100%;
@@ -966,18 +1045,10 @@ span{
     height: 500px;
   }
 
-  .column2{
-    width: 45vw;
-    object-fit: cover; /* Scales the video to cover the container, cropping excess */
-    object-position: center center;
-    height: 100%;
-  }
-
   .row1{
     /* margin-bottom: 15px; */
     margin-left: 0.75vw;
-    width: 44.25vw;
-    height: 242px;
+    height: 500px;
   }
 
   .row2{
@@ -1144,7 +1215,7 @@ span{
     width: 100%;
     padding: 10px 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 0.15s ease-in-out;
     cursor: pointer;
   }
@@ -1226,7 +1297,7 @@ span{
 
   .column1{
     width: 90vw;
-    height: 300px;
+    height: 200px;
   }
 
   .column2{
@@ -1234,14 +1305,13 @@ span{
     object-fit: cover; /* Scales the video to cover the container, cropping excess */
     object-position: center center;
     height: auto;
-    margin-top: 150px 0 !important;
   }
 
   .row1{
-    margin-top: 15px;
+    padding: 20px;
     margin-left: 0;
     width: 90vw;
-    height: 300px;
+    height: 200px;
   }
 
   .row2{
@@ -1261,9 +1331,28 @@ span{
     height: 300px;
     min-width: 90vw;
     background-image: url(./Tamplate/SemImagem.png);
+    padding: 50px;
   }
   
+  .full-row h1{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
 
+  .full-row a{
+    font-weight: 400;
+    cursor: pointer;
+    color: #646464;
+    /* border: #000 1px solid; */
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #f3f3f3;
+    transition: 0.15s ease-in-out;
+    width: 295px;
+    justify-self: center;
+  }
 
   /*=============== PRODUCT LIST ===============*/
 
@@ -1305,7 +1394,7 @@ span{
     width: 100%;
     padding: 10px 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 0.15s ease-in-out;
     cursor: pointer;
   }
